@@ -8,7 +8,11 @@ class TestCase(unittest.TestCase):
             if i % 3 == 0:
                 self.assertEqual("Fizz",result[i])
 
-
+    def test_Buzz(self):
+        result = FizzBuzz()
+        for i in range(len(result)):
+            if i % 5 == 0:
+                self.assertEqual("Buzz", result[i])
 
 
 

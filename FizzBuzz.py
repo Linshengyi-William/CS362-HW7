@@ -1,0 +1,2 @@
+def FizzBuzz():
+    pass
